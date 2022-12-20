@@ -10,7 +10,7 @@ jobs:
         uses: github/super-linter@v3.17.0
        
       - name: Run Super-Linter
-        uses: guthub//super-linter@v3
+        uses: guthub/super-linter@v3
         env:
           DEVAULT_BRANCH: main
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
